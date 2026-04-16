@@ -4,3 +4,7 @@ rules:
     upstream: trio:dev
     mergeMethod: hardreset
     mergeUnstable: true
+  - base: main
+    upstream: trio:main
+    mergeMethod: hardreset
+    mergeUnstable: true
